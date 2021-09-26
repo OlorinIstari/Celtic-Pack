@@ -1,4 +1,4 @@
-﻿on_game_start = {
+on_game_start = {
 	on_actions = {
 		CP_pictish_rebellion
 	}
@@ -13,3 +13,4 @@ CP_pictish_rebellion = {
 		}
 	}
 }
+
