@@ -1,4 +1,4 @@
-c_buchan = {
+﻿c_buchan = {
 	760.1.1 = {
 		liege = "d_moray"
 		holder = 166612

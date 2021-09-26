@@ -1,4 +1,4 @@
-pictish_father = {
+﻿pictish_father = {
 	name = "Eoganan"
 	dynasty = 910000
 	religion = "catholic"
