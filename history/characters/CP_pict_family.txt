@@ -1,4 +1,4 @@
-﻿pictish_father = {
+pictish_father = {
 	name = "Eoganan"
 	dynasty = 910000
 	religion = "catholic"
@@ -19,7 +19,7 @@ pictish_hero = {
 	840.1.1 = {
 		birth = yes
 	}
-	father = 900000
+	father = pictish_father
 	martial = 15
 	diplomacy = 10
 	trait = brave
