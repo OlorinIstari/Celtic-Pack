@@ -5,13 +5,13 @@ c_buchan = {
 		government = tribal_government
 	}
 	820.1.1 = { 
-		holder = 900000
+		holder = pictish_father
 	}
 	858.1.1 = {
 		liege = "d_moray"
 	}
 	859.1.1 = {
-		holder = 900001
+		holder = pictish_hero
 	}
 	935.1.1 = {
 		government = feudal_government	#Ahistorical, just for ease of bookmarks.
