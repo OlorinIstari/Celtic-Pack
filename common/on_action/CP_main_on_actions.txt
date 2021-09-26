@@ -6,7 +6,7 @@ on_game_start = {
 
 CP_pictish_rebellion = {
 	effect = {
-		character:900001 = {
+		character:pictish_hero = {
 			trigger_event = {
 				id = CP_pictish.0001
 			}
