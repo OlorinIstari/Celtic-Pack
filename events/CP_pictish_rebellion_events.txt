@@ -4,7 +4,7 @@ CP_pictish.0001 = {
 	type = character
 	title = CP_pictish.0001.t
 	desc = CP_pictish.0001.desc
-	# theme = 
+	theme = claim_throne_scheme
 	left_portrait = {
 		character = root
 		animation = bold
@@ -23,8 +23,7 @@ CP_pictish.0002 = {
 	type = character
 	title = CP_pictish.0002.t
 	desc = CP_pictish.0002.desc
-
-	# theme = 
+	theme = claim_throne_scheme
 	left_portrait = {
 		character = root
 		animation = bold
@@ -59,14 +58,13 @@ CP_pictish.0003 = {
 	type = character
 	title = CP_pictish.0003.t
 	desc = CP_pictish.0003.desc
-
-	# theme = 
+	theme = claim_throne_scheme
 	left_portrait = {
 		character = root
 		animation = bold
 	}
 
 	option = {
-
+		name = CP_pictish.0003.a
 	}
 }
