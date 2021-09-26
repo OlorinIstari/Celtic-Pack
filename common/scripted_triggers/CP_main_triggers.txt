@@ -1,6 +1,1 @@
-﻿# Причёски для персонажей
-
-is_pictish_hero_trigger = {
-	exists = character:pictish_hero
-	this = character:pictish_hero
-}
+﻿
