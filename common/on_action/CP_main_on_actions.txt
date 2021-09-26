@@ -1,1 +1,16 @@
-﻿
+on_game_start = {
+	on_actions = {
+		CP_pictish_rebellion
+	}
+}
+
+CP_pictish_rebellion = {
+	effect = {
+		character:900001 = {
+			trigger_event = {
+				id = CP_pictish.0001
+			}
+		}
+	}
+}
+

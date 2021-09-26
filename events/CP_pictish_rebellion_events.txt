@@ -1,0 +1,70 @@
+﻿namespace = CP_pictish
+
+CP_pictish.0001 = {
+	type = character
+	title = CP_pictish.0001.t
+	desc = CP_pictish.0001.desc
+	theme = claim_throne_scheme
+	left_portrait = {
+		character = root
+		animation = bold
+	}
+
+	option = {
+		name = CP_pictish.0001.a
+		trigger_event = {
+			id = CP_pictish.0002
+			days = { 15 30 }
+		}
+	}
+}
+
+CP_pictish.0002 = {
+	type = character
+	title = CP_pictish.0002.t
+	desc = CP_pictish.0002.desc
+	theme = claim_throne_scheme
+	left_portrait = {
+		character = root
+		animation = bold
+	}
+
+	trigger = {
+		is_ruler = yes
+	}
+
+	option = {
+		name = CP_pictish.0002.a
+		create_story = {
+			type = pictish_rebellion_story
+			save_scope_as = pictish_rebellion
+		}
+
+		ai_chance = {
+			base = 50
+		}
+	}
+
+	option = {
+		name = CP_pictish.0002.b
+
+		ai_chance = {
+			base = 50
+		}
+	}
+}
+
+CP_pictish.0003 = {
+	type = character
+	title = CP_pictish.0003.t
+	desc = CP_pictish.0003.desc
+	theme = claim_throne_scheme
+	left_portrait = {
+		character = root
+		animation = bold
+	}
+
+	option = {
+		name = CP_pictish.0003.a
+	}
+}
