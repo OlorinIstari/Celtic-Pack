@@ -1,4 +1,0 @@
-﻿9100000 = {
-	name = "dynn_Caltram"
-	culture = "pictish"
-}
