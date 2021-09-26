@@ -33,7 +33,7 @@ levies_bowmen = {
 	type = archers
 	
 	damage = 19
-	toughness = 7
+	toughness = 14
 	pursuit = 0
 	screen = 0
 	
