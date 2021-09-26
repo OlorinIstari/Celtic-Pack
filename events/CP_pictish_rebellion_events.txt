@@ -66,5 +66,131 @@ CP_pictish.0003 = {
 
 	option = {
 		name = CP_pictish.0003.a
+		trigger_event = {
+			id = CP_pictish.0004
+		}
 	}
 }
+#######
+#######
+CP_pictish.0004 = {
+	type = character
+	title = CP_pictish.0004.t
+	desc = CP_pictish.0004.desc
+	theme = claim_throne_scheme
+	left_portrait = {
+		character = root
+		animation = bold
+	}
+
+	option = {
+		name = CP_pictish.0004.a
+		trigger_event = {
+			id = CP_pictish.0005
+		}
+	}
+
+	option = {
+		name = CP_pictish.0004.b
+		add_character_flag = search_alliance
+	}
+
+	option = {
+		name = CP_pictish.0004.c
+		add_character_flag = delight_people
+	}
+}
+
+################################
+##### Training of Soldiers #####
+################################
+CP_pictish.0005 = {
+	type = character
+	title = CP_pictish.0005.t
+	desc = CP_pictish.0005.desc
+	theme = claim_throne_scheme
+	left_portrait = {
+		character = root
+		animation = bold
+	}
+
+	immediate = {
+		add_character_flag = training_soldiers
+		set_variable = {
+			name = pictish_soldiers
+			value = 0
+		}
+	}
+
+	option = {
+		name = CP_pictish.0005.a
+		custom_tooltip = CP_pictish.0005.tt ### Начинается подготовка рекрутов
+		trigger_event = {
+			id = CP_pictish.0006
+		}
+	}
+}
+
+CP_pictish.0006 = {
+	type = character
+	title = CP_pictish.0006.t
+	desc = CP_pictish.0006.desc
+	theme = claim_throne_scheme
+	left_portrait = {
+		character = root
+		animation = bold
+	}
+
+	immediate = {
+		add_character_flag = recruts_yes
+		days = 50
+	}
+
+	option = {
+		name = CP_pictish.0006.a
+	}
+
+	option = {
+		name = CP_pictish.0006.b
+	}
+
+	option = {
+		name = CP_pictish.0006.c
+		trigger = {
+			gold = 50 
+		}
+	}
+	
+}
+
+CP_pictish.0007 = {
+	type = character
+	title = CP_pictish.0007.t
+	desc = CP_pictish.0007.desc
+	theme = claim_throne_scheme
+	left_portrait = {
+		character = root
+		animation = bold
+	}
+
+	immediate = {
+		add_character_flag = armor_yes
+		days = 50
+	}
+
+	#Изготовление брони
+	option = {
+		name = CP_pictish.0007.a
+		trigger = {
+			gold = 100 
+		}
+	}
+	#Изготовление луков
+	option = {
+		name = CP_pictish.0007.a
+		trigger = {
+			gold = 100 
+		}
+	}
+
+	#Покупка хорошего снаряжения
