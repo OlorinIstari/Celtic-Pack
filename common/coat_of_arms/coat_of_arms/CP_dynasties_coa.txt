@@ -5,7 +5,7 @@
 	colored_emblem = {
 		texture = "ce_wolf.dds"
 		color1 = "yellow"
-		color2 = "white"
+		color2 = rgb { 158 158 158 }
 		color3 = "red"
 	}	
 }

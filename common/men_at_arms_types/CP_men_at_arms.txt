@@ -19,7 +19,8 @@ levies_footmen = {
 	counters = {
 		heavy_infantry = 1
 	}
-
+	
+	can_recruit = no
 	buy_cost = { gold = skirmisher_recruitment_cost }
 	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
 	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
@@ -45,7 +46,7 @@ levies_bowmen = {
 	counters = {
 		skirmishers = 1
 	}
-
+	can_recruit = no
 	buy_cost = { gold = bowmen_recruitment_cost }
 	low_maintenance_cost = { gold = bowmen_low_maint_cost }
 	high_maintenance_cost = { gold = bowmen_high_maint_cost }
@@ -63,7 +64,7 @@ simple_ram = {
 	
 	siege_tier = 1
 	siege_value = 0.1
-	
+		can_recruit = no
 	buy_cost = { gold = onager_recruitment_cost }
 	low_maintenance_cost = { gold = onager_low_maint_cost }
 	high_maintenance_cost = { gold = onager_high_maint_cost }
@@ -79,7 +80,7 @@ pikemen_levie = {
 	toughness = 21
 	pursuit = 0
 	screen = 0
-	
+	can_recruit = no	
 	terrain_bonus = {
 		mountains = { toughness = 10 }
 		hills = { toughness = 8 }
@@ -99,29 +100,26 @@ pikemen_levie = {
 	icon = pikemen
 }
 
-fight_dogs = {
-	type = pikemen
+fight_dogs_regiment = {
+	type = skirmishers
 	
 	damage = 0
-	toughness = 0
-	pursuit = 50
+	toughness = 15
+	pursuit = 40
 	screen = 10
 	
 	terrain_bonus = {
 	}
 
 	counters = {
-		light_cavalry = 1
-		heavy_cavalry = 1
+		
 	}
-
-	fights_in_main_phase = no
-	buy_cost = { gold = doggo_recruitment_cost }
-	low_maintenance_cost = { gold = doggo_low_maint_cost }
-	high_maintenance_cost = { gold = doggo_high_maint_cost }
+	buy_cost = { gold = skirmisher_recruitment_cost }
+	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
+	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
 	
 	stack = 50
 	ai_quality = { value = culture_ai_weight_pikemen }
-	icon = pikemen
+	icon = fight_dog
 }
 

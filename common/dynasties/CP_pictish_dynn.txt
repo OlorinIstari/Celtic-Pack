@@ -1,4 +1,5 @@
 ﻿9100000 = {
 	name = "dynn_Caltram"
 	culture = "pictish"
+	motto = pictish_dynn_motto
 }

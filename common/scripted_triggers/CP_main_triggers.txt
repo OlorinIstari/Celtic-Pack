@@ -1,1 +1,45 @@
-﻿
+﻿CP_can_keep_high_partition_succession_law_trigger = {
+	trigger_if = {
+		limit = {
+			has_realm_law = CP_high_partition_succession_law
+		}
+	}
+}
+CP_can_change_partition_succession_law_trigger = {
+	custom_description = {
+		text = "has_law_allowing_cp_partition_succession_law_change"	
+		OR = {
+			has_realm_law_flag = can_change_partition_succession_laws
+			has_realm_law_flag = can_change_succession_laws
+		}
+	}
+	custom_description = {
+		text = "no_powerful_vassal_with_negative_opinion"
+		NOT = {
+			any_vassal = {
+				is_powerful_vassal = yes
+				opposes_succession_law_change_trigger = yes
+			}
+		}
+	}
+}
+
+CP_can_have_high_partition_succession_law_trigger = {
+	trigger_if = {
+		limit = {
+			OR = {
+				has_culture = culture:pictish
+			}
+			culture = {
+				NOT = { has_innovation = innovation_heraldry }
+			}
+		}
+		culture = { has_innovation = innovation_maiden_heritage }
+	}
+}
+
+CP_historical_succession_access_single_heir_succession_law_trigger = {
+	OR = {
+		has_title = title:c_buchan
+	}
+}
