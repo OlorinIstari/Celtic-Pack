@@ -58,8 +58,8 @@ innovation_maiden_heritage = {
 		}
 	}
 	
-	unlock_law = CP_female_preference_law
-	unlock_law = CP_high_partition_succession_law
+	unlock_law = female_preference_law
+	unlock_law = high_partition_succession_law
 	custom = CP_heritage_desc
 	
 	flag = global_regional
