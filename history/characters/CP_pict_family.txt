@@ -1,6 +1,6 @@
 ﻿pictish_father = {
 	name = "Eoganan"
-	dynasty = 910000
+	dynasty = 9100000
 	religion = "catholic"
 	culture = "pictish"
 	800.1.1 = {
@@ -13,7 +13,7 @@
 
 pictish_hero = {
 	name = "Carvorst"
-	dynasty = 910000
+	dynasty = 9100000
 	religion = "catholic"
 	culture = "pictish"
 	840.1.1 = {
